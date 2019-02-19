@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  saea.webredismanager:
+    image: ${DOCKER_REGISTRY-}saeawebredismanager
+    build:
+      context: .
+      dockerfile: SAEA.WebRedisManager/Dockerfile
