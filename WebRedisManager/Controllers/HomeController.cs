@@ -10,7 +10,7 @@ namespace WebRedisManager.Controllers
     {
         public IActionResult Index()
         {
-            return Redirect("/index.html");
+            return Redirect("/Index.html");
         }
     }
 }
